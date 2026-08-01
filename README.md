@@ -31,6 +31,8 @@ built as **pure static HTML** (no build step) so Cloudflare Pages serves it dire
    - **Build output directory:** `/` (root) — or the folder name if the files aren't at repo root
 4. Click **Save and Deploy**. Live in ~1 minute at `https://<project>.pages.dev/`.
 
+> ✅ **Current live URL:** `https://iptvflick-utomlands.decotik10.workers.dev/` (deployed via Workers.dev).
+
 ### Custom domain (recommended)
 1. In the Pages project → **Custom domains** → **Set up a custom domain**.
 2. Add `iptvflick.com` (or a subdomain like `blog.iptvflick.com`).
@@ -60,4 +62,4 @@ built as **pure static HTML** (no build step) so Cloudflare Pages serves it dire
 - IndexNow key file `684e90461e78dd858d62d5cf5bd51d1e.txt` at root – enables instant Bing indexing
   once deployed (the key must be reachable at `https://<domain>/684e90461e78dd858d62d5cf5bd51d1e.txt`).
 - All internal links are **relative** (`../`, `index.html`) so the site works from any subpath
-  (pages.dev URL, custom domain, or local `file://` preview).
+  (workers.dev URL, custom domain, or local `file://` preview).

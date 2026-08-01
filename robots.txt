@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iptvflick-utomlands.pages.dev/sitemap.xml
+Sitemap: https://iptvflick-utomlands.decotik10.workers.dev/sitemap.xml

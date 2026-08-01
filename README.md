@@ -55,9 +55,8 @@ built as **pure static HTML** (no build step) so Cloudflare Pages serves it dire
 
 ## 📝 Notes
 
-- `sitemap.xml` and `robots.txt` now use `https://iptvflick-utomlands.pages.dev/` (Cloudflare's
-  default project URL = repo name). If your Pages project is named differently, update these
-  to match your actual URL.
+- `sitemap.xml` and `robots.txt` use `https://iptvflick-utomlands.decotik10.workers.dev/` (the live
+  Workers.dev URL). If you later attach a custom domain, update these to match.
 - IndexNow key file `684e90461e78dd858d62d5cf5bd51d1e.txt` at root – enables instant Bing indexing
   once deployed (the key must be reachable at `https://<domain>/684e90461e78dd858d62d5cf5bd51d1e.txt`).
 - All internal links are **relative** (`../`, `index.html`) so the site works from any subpath
